@@ -30,5 +30,11 @@ public class Number {
 		return this.number1+this.number2;
 		
 	}
+	
+	public int getSubtraction() {
+		
+		return this.number1-this.number2;
+		
+	}
 
 }
