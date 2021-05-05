@@ -24,6 +24,18 @@ public class Name {
 		return  stringLenght;
 	}
 	
+	public String getReverse() {
+		
+		StringBuilder reverse = new StringBuilder(this.name);
+		
+		return this.name= reverse.reverse().toString();
+	}
+	
+	public String getCapitalLetters(){
+		
+		return this.name.toUpperCase();
+	}
+	
 
 }
 

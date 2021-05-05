@@ -19,4 +19,18 @@ public class NameTest {
 		
 		assertEquals(4, this.name.getLeght());
 	}
+	
+	@Test
+	public void getReverse() {
+		
+		assertEquals("xelA", this.name.getReverse());
+		
+	}
+	
+	@Test 
+	
+	public void getCapitalLetters() {
+		
+		assertEquals("ALEX", this.name.getCapitalLetters());
+	}
 }
