@@ -31,6 +31,11 @@ public class Name {
 		return this.name= reverse.reverse().toString();
 	}
 	
+	public String getCapitalLetters(){
+		
+		return this.name.toUpperCase();
+	}
+	
 
 }
 
