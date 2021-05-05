@@ -36,5 +36,10 @@ public class Number {
 		return this.number1-this.number2;
 		
 	}
+	
+	public int getMultiplication() {
+		
+		return this.number1*this.number2;
+	}
 
 }
